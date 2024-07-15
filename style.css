@@ -1,0 +1,60 @@
+body {
+  background-color: #1b1b32;
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  margin: 20px 0 20px;
+}
+
+.container-title {
+  font-size: 40px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.container,
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box {
+  border: 2px solid #fff;
+  padding: 20px 15px;
+  background-color: #3b3b4f;
+}
+
+.input-box .input-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-bar {
+  width: 450px;
+  height: 60px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  background-color: #0a0a23;
+  color: #fff;
+  border: #feac32;
+}
+
+#convert-btn {
+  height: 56px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+  cursor: pointer;
+}
